@@ -6,9 +6,10 @@ define('DEBUG_FILE', __DIR__.DIRECTORY_SEPARATOR.'data'.DIRECTORY_SEPARATOR.'deb
 define('PLUGINS_DIR', 'plugins');
 define('FILES_DIR', 'data'.DIRECTORY_SEPARATOR.'files');
 
-define('MAIL_FROM', 'stephen.cunningham@walmart.com');
-define('MAIL_TRANSPORT', 'sendmail');
-define('MAIL_SENDMAIL_COMMAND', '/usr/sbin/sendmail -bs');
+define('MAIL_TRANSPORT', 'mailgun');
+define('MAILGUN_API_TOKEN', 'key-d04dae8cd2729be6edf5b1780b0e38ce');
+define('MAILGUN_DOMAIN', 'app8446c21643be4877852e73baa0d40432.mailgun.org');
+define('MAIL_FROM', 'postmaster@app8446c21643be4877852e73baa0d40432.mailgun.org');
 
 define('REMEMBER_ME_AUTH', true);
 define('ENABLE_HSTS', true);
