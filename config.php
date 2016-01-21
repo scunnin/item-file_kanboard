@@ -7,9 +7,8 @@ define('PLUGINS_DIR', 'plugins');
 define('FILES_DIR', 'data'.DIRECTORY_SEPARATOR.'files');
 
 define('MAIL_FROM', 'stephen.cunningham@walmart.com');
-define('MAIL_TRANSPORT', 'smtp');
-define('MAIL_SMTP_HOSTNAME', 'smtp-gw1.wal-mart.com');
-define('MAIL_SMTP_PORT', 25);
+define('MAIL_TRANSPORT', 'sendmail');
+define('MAIL_SENDMAIL_COMMAND', '/usr/sbin/sendmail -bs');
 
 define('REMEMBER_ME_AUTH', true);
 define('ENABLE_HSTS', true);
