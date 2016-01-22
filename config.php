@@ -20,3 +20,8 @@ define('BRUTEFORCE_CAPTCHA', 3);
 define('BRUTEFORCE_LOCKDOWN', 6);
 define('BRUTEFORCE_LOCKDOWN_DURATION', 15);
 define('SESSION_DURATION', 0);
+
+define('AWS_KEY', 'AKIAJK252UHWSNBKX4EQ');
+define('AWS_SECRET', 'rRFaqs3gwh7FxbxI7UI8vp3cDCt5rsofsNYo5b3y');
+define('AWS_S3_BUCKET', 'itemfile-kanboard-attachments');
+define('AWS_S3_REGION', 'us-east-1'); // Define your bucket region
